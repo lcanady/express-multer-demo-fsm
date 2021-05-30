@@ -1,0 +1,16 @@
+{
+  "name": "express-multer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn dev\"  \"cd client && yarn start\"",
+    "start": "concurrently \"cd client && yarn build\"  \"cd server && yarn start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
